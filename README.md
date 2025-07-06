@@ -1,6 +1,6 @@
 # 🌿 Natural Shades – First Semester Project
 
-This is my **first semester project**, where I designed a fully responsive UI in Figma for both **Android (mobile)** and **Desktop**, then developed it into a clean and functional website using **HTML, CSS, and JavaScript**.
+This is my **first semester project**, where I designed a fully responsive UI in Figma for both **Android (mobile)** and **Desktop**, then developed it into a clean and functional website using **HTML and CSS**.
 
 ## ✨ **Project Overview**
 - **Design:** Figma (Android & Desktop views)
@@ -18,13 +18,11 @@ This project helped me understand:
 
 ## 📸 **Preview**
 | Figma Design | Developed UI |
-| --- | --- |
-| ![Figma Design](images/figma_design.png) | ![Developed UI](images/developed_ui.png) |
+You can check my figma design and development in my linked in : nepalunisha
 
-*(Add screenshots in the 'images' folder and update the links if you want to display them here)*
 
 ## 🔗 **Check Live Demo**
-*(If deployed, add your live link here. Otherwise, remove this section.)*
+*(not deployed)*
 
 ## 👩🏻‍💻 **Author**
 [Unisha Nepal](https://github.com/nepalunisha)
