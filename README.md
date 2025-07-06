@@ -22,7 +22,7 @@ You can check my figma design and development in my linked in : nepalunisha
 
 
 ## 🔗 **Check Live Demo**
-*(not deployed)*
+* https://nepalunisha.github.io/NaturalShades-sem1/*
 
 ## 👩🏻‍💻 **Author**
 [Unisha Nepal](https://github.com/nepalunisha)
