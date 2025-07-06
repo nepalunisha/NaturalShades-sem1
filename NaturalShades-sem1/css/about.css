@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e1d6e6;
+  overflow-x: hidden;
+}
+
+main {
+  margin-left: 83px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  margin-bottom: 77px;
+}
+/* HISTORY SECTION */
+.history {
+  display: flex;
+  gap: 150px;
+}
+.history img {
+  width: 502px;
+  height: 458px;
+}
+.history-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+.title {
+  color: #000;
+  text-align: center;
+  font-family: "Recursive";
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+.blue-title {
+  color: #088ad3;
+}
+.desc {
+  color: #000;
+  width: 614px;
+  height: 322px;
+  text-align: justify;
+  font-family: "Microsoft Sans Serif";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.space {
+  height: 20px;
+}
+/* bestsellers*/
+.bestseller {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.products {
+  display: flex;
+  gap: 90px;
+  flex-direction: column;
+}
+.products-row {
+  display: flex;
+  gap: 187px;
+}
+.product-item {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+.product-title {
+  color: #000;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.product-img {
+    width: 300px;
+    height: 358px;
+}
+.product-mobile-row{
+  display: none;
+}
+
+/* media query */
+@media all and (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+  @media all and (max-width: 375px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  /*body*/
+  /*first section */
+  
+  main {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    gap: 3rem;
+  }
+  .history {
+    width: 30.5rem;
+    height: 18rem;
+    gap: 3rem;
+  }
+  .history img {
+    width: 13rem;
+    height: 17.8rem
+  }
+  .history-desc {
+    width: 14.5rem;
+    height: 18rem;
+    gap:1.5rem;
+  }
+  .desc {
+    width: 13.5rem;
+    height: 13.1rem;
+    font-size: 0.7rem;
+  }
+  .title {
+width: 14.5rem;
+font-size:1.4rem;
+text-align: left;
+margin: auto;
+  }
+  /*second-section*/
+  .products {
+    display: none;
+  }
+  .products-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .product-mobile-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+  }
+  .product-item{
+    display: flex;
+    gap: 1rem;
+  }
+  .product-img {
+    width: 13rem;
+    height: 15.5rem;
+  }
+  
+  .product-title {
+    font-size:1.08rem;
+  }
+  
+  .bestseller {
+    gap: 4rem;
+    align-items: flex-start;
+  }
+}

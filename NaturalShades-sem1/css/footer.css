@@ -1,0 +1,99 @@
+/*footer*/
+html {
+  font-size: 10px;
+}
+footer {
+    display: flex;
+    width: auto;
+    height: 133px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 110px;
+    background-color: #d3aed6;
+    gap: 269px;
+    
+  }
+  .footer-container {
+    margin-left: 80px;
+  }
+  footer div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+      
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 269px;
+    color: #000;
+    text-align: right;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .icons-div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .icons {
+      width: 30px;
+      height: 30px;
+  }
+  
+  .copyright{
+    color: #000;
+  font-family: 'Pangolin';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+@media all and (max-width:425px){
+
+    html {
+        font-size: 11px;
+    }
+    @media all and (max-width: 375px)
+    {
+        html {
+            font-size: 10px;
+        }
+    }
+     /*footer*/
+ footer {
+    margin-top: 0;
+    width: 37.5rem;
+    height: 7.4rem;
+    gap: 3.1rem;
+  }
+  .footer-container {
+    margin-left: 2.6rem;
+    width: 10.5rem;
+    height: 4.53rem;
+  }
+  footer div {
+    gap: 0.84rem;
+  }
+  .footer-logo {
+    font-size: 1.33rem;
+    height: 10.5rem;
+    width: 10.5rem;
+  }
+  .icons-div {
+    gap: 0.8rem;
+  }
+  .icons {
+    width: 1.68rem;
+    height: 1.68rem;
+  }
+  .copyright{
+    font-size: 0.98rem;
+    width: 17.2rem;
+    height: 2.4rem;
+  }
+}

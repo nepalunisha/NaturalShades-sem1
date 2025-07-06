@@ -1,0 +1,94 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-image: url(../image/background/home_background.png);
+  background-size: cover;
+  height: auto;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 26.4rem;
+  color: #000;
+  font-family: "Roboto Slab";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.search {
+  border: 0.1rem solid #555;
+  width: 63.1rem;
+  height: 5.6rem;
+  flex-shrink: 0;
+  padding: 1.85rem 0 1.55rem 9rem;
+  background: #f4f2f2 url("../image/logo/search.png") no-repeat 2.2rem center;
+  background-size: 3rem 3rem;
+  border-radius: 5rem;
+  margin-bottom: 38.2rem;
+}
+
+input,
+input::placeholder {
+  font-size: 1.7rem;
+}
+/* media query */
+@media all and (max-width: 1024px){
+  html {
+    font-size: 7.1111px;
+  }
+  @media all and (max-width: 800px){
+    html {
+      font-size: 5.556px;
+    }
+  }
+  @media all and (max-width: 600px){
+    html {
+      font-size: 4.166px;
+    }
+  }
+  @media all and (max-width: 425px) {
+    html {
+      font-size: 11px;
+    }
+    @media all and (max-width: 375px) {
+      html {
+        font-size: 10px;
+      }
+    }
+   
+    /*body*/
+    .welcome {
+      margin: auto;
+      margin-top: 40rem;
+      width: 25.1rem;
+      height: 3.3rem;
+      gap: 2rem;
+      font-size: 2.5rem;
+      margin-bottom: 10rem;
+    }
+    .search {
+      width: 25.2rem;
+      height: 3rem;
+      background-size: 1.2rem 1.2rem;
+      padding: 1.05rem 6.12rem;
+    }
+    input,
+    input::placeholder {
+      font-size: 0.8rem;
+    }
+  
+  }
+
+}
+

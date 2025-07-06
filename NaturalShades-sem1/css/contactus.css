@@ -1,0 +1,342 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e1d6e6;
+  overflow-x: hidden;
+}
+
+main {
+  margin-left: 8.3rem;
+  margin-top: 10.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-bottom: 7.7rem;
+}
+
+/* contact us */
+.first-section {
+  display: flex;
+  height: 62.1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.contact {
+  display: flex;
+  width: 127.9rem;
+  align-items: center;
+  gap: 9.5rem;
+}
+
+.contact-desc {
+  display: flex;
+  width: 57.2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.title {
+  color: #2c212d;
+  font-family: Verdana;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.desc {
+  color: #2c212d;
+  width: 57.5rem;
+  height: 18.8rem;
+  font-family: "Vazirmatn";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 200;
+}
+
+/*second-section*/
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 75.8rem;
+  height: 86.8rem;
+  border-radius: 3rem;
+  background: #c9b5d2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10.8rem;
+  gap: 10rem;
+}
+.table-title {
+  color: #985195;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 34rem;
+  height: 6.6rem;
+}
+.table {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.table .tr {
+  display: flex;
+  gap: 2.1rem;
+}
+.firstname {
+  background: #f4f2f2 url("../image/logo/account\ 3.png") no-repeat 2.2rem center;
+  width: 21.9rem;
+  height: 4.9rem;
+  border: none;
+}
+.lastname {
+  width: 21rem;
+  height: 4.9rem;
+  background-color: #f4f2f2;
+  border: none;
+}
+.email {
+  width: 48.2rem;
+  height: 4.9rem;
+  flex-shrink: 0;
+  background: #f4f2f2 url("../image/logo/mail\ 3.png") no-repeat 2.2rem center;
+  border: none;
+}
+.contact-number {
+  width: 48.2rem;
+  height: 4.9rem;
+  flex-shrink: 0;
+  background: #f4f2f2 url("../image/logo/contact-us\ 3.png") no-repeat 2.2rem center;
+  border: none;
+}
+.submit {
+  border-radius: 2rem;
+  background: #985195;
+  width: 44.4rem;
+  height: 6rem;
+  color: #fff;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+input,
+input::placeholder {
+  color: #000;
+  padding-left: 3rem;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 2.75rem;
+  line-height: normal;
+}
+
+/* THIRD SECTION */
+.third-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+.team-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.5rem;
+}
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+.img-people {
+  width: 40.2rem;
+  height: 32.1rem;
+}
+.people-title {
+  color: #000;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.first-section-desc {
+  color: #2c212d;
+  width: 127.9rem;
+  height: 8.4rem;
+  text-align: center;
+  font-family: "Vazirmatn";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 200;
+}
+/* media query */
+/* media query */
+@media all and (max-width: 425px) {
+  html {
+    font-size: 11px;
+  }
+  @media all and (max-width: 375px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  header {
+    width: 37.5rem;
+    height: 8.8rem;
+  }
+  body {
+    width: 37.5rem;
+    height: auto;
+  }
+  nav {
+    display: none;
+  }
+  .header-logo {
+    margin-left: 2.6rem;
+    margin-top: 1.5rem;
+    width: 13.2rem;
+    height: 5.6rem;
+    font-size: 2.2rem;
+  }
+  /*body*/
+  section {
+    width: 23rem;
+  }
+ main {
+  margin-top: 5rem;
+  margin-left: 6.1rem;
+  gap: 4rem;
+ }
+ .first-section{
+  height: auto;
+  gap: 1.5rem;
+ }
+ .contact {
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 23rem;
+ }
+ .contact img {
+  width: 23rem;
+height: 19.2rem;
+border-radius: 5.58rem;
+ }
+ .contact-desc{
+  gap: 1.2rem;
+  width: auto;
+ }
+ .title {
+  font-size: 1.6rem;
+ }
+ .desc{
+  width: 23rem;
+height: 7.52rem;
+font-size: 1.2rem;
+ }
+ .first-section-desc{
+  width: 23rem;
+height: 5.3rem;
+font-size: 0.9rem;
+ }
+ /*form */
+ .second-section{
+  justify-content: flex-start;
+ }
+ form {
+  padding-top: 0;
+  width: 23rem;
+height: 24.5rem;
+gap: 3.2rem;
+ }
+ .table {
+  gap: 1.2rem;
+  height: 5.9rem;
+ }
+ .table .tr {
+  gap: 0.66rem;
+ }
+ .table-title{
+  font-size: 1.57rem;
+  padding-top: 3.4rem;
+  height: 2rem;
+ }
+ input,input::placeholder{
+  font-size:0.56rem;
+  padding-left: 1rem;
+ }
+ .table .tr {
+  width: auto;
+ }
+ .firstname{
+  width: 6.8985rem;
+height: 1.5435rem;
+background: #f4f2f2 url("../image/logo/account\ 3.png") no-repeat 0.63rem center;
+background-size: 0.89rem 0.89rem;
+
+ }
+ .lastname{
+  width: 6.615rem;
+height: 1.5435rem;
+ }
+ .email{
+  width: 15.4rem;
+  height: 1.5435rem;
+  background: #f4f2f2 url("../image/logo/mail\ 3.png") no-repeat 0.63rem center;
+  background-size: 0.89rem 0.89rem;
+ }
+ .contact-number{
+  width: 15.4rem;
+height: 1.5435rem;
+background: #f4f2f2 url("../image/logo/contact-us\ 3.png") no-repeat 0.63rem center;
+background-size: 0.89rem 0.89rem;
+ }
+ .submit{
+  width: 14rem;
+  height: 1.9rem;
+  font-size: 0.78rem;
+ }
+ /*our team */
+ .third-section{
+  gap: 2rem;
+  align-items: flex-start;
+ }
+ .title{
+  font-size: 1.6rem;
+  margin: auto;
+ }
+ .team-member{
+  gap: 2rem;
+  flex-direction: column;
+
+ }
+ .people{
+  gap: 2rem;
+ }
+ .people-title{
+  font-size: 1.3rem;
+ }
+ .img-people{
+width: 23rem;
+height: 20rem;
+ }
+}

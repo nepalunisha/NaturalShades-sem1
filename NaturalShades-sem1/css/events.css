@@ -1,0 +1,193 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e1d6e6;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin-left: 8.3rem;
+  margin-top: 4.1rem;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.second-section {
+  display: flex;
+  align-items: center;
+  gap: 39.5rem;
+}
+
+.desc {
+  color: #000;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.natural {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.rect {
+  width: 30.3rem;
+  height: 25rem;
+  border: 0.4rem solid #000;
+  color: #000;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 7.5rem;
+}
+
+.time {
+  color: #000;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.third-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 10.1rem;
+}
+
+.event-rule {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 56.6rem;
+}
+
+.rule-title {
+  color: #000;
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.desc-2 {
+  color: #000;
+  font-family: Verdana;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.event-criteria {
+  color: #000;
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 59rem;
+  height: 49.5rem;
+}
+@media all and (max-width: 425px) {
+  html {
+    font-size: 11px;
+  }
+  @media all and (max-width: 375px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  main {
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  .first-section {
+    gap: 2.5rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .desc {
+    font-size: 0.9rem;
+  }
+  /*second-section*/
+  .second-section {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: flex-start;
+    width: 30rem;
+  }
+  .second-section img {
+    width: 30rem;
+    height: 23.9rem;
+  }
+  .natural {
+    gap: 2rem;
+    margin: auto;
+  }
+  .rect {
+    width: 15.15rem;
+    height: 13.55rem;
+    font-size: 2.5rem;
+  }
+  .time {
+    font-size: 1.5rem;
+  }
+  /*third-section*/
+  .third-section {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    width: 30rem;
+    margin-bottom: 4rem;
+  }
+  .event-criteria {
+    width: 30rem;
+    height: 24.8rem;
+    font-size: 1.5rem;
+  }
+  .event-rule{
+    gap: 1rem;
+    width: 30rem;
+  }
+  .rule-title{
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+  .desc-2{
+    font-size: 1rem;
+    width: 30rem;
+  }
+}
